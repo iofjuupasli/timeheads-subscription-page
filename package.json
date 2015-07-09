@@ -1,0 +1,25 @@
+{
+  "name": "timeheads-subscription-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iofjuupasli/timeheads-subscription-page.git"
+  },
+  "author": "Tretyak Valery <iofjuupasli@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iofjuupasli/timeheads-subscription-page/issues"
+  },
+  "homepage": "https://github.com/iofjuupasli/timeheads-subscription-page#readme",
+  "dependencies": {
+    "koa": "^0.21.0",
+    "koa-bodyparser": "^2.0.0",
+    "koa-router": "^5.1.2",
+    "koa-static": "^1.4.9"
+  }
+}

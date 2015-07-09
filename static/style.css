@@ -1,0 +1,79 @@
+body {
+    background: url("bg.jpg") center center fixed;
+    background-size: cover;
+}
+.darkness {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: .6;
+}
+form {
+    position: fixed;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+input {
+    width: 380px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 3px solid #F25F5C;
+    margin-bottom: 4px;
+}
+::-webkit-input-placeholder {
+    color: #fff;
+    opacity: .7;
+}
+::-moz-placeholder {
+    color: #fff;
+    opacity: .7;
+}
+
+/* Firefox 19+ */
+
+:-moz-placeholder {
+    color: #fff;
+    opacity: .7;
+}
+
+/* Firefox 18- */
+
+:-ms-input-placeholder {
+    color: #fff;
+    opacity: .7;
+}
+button {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    background-color: #F25F5C;
+    color: white;
+    font-size: 30px;
+}
+p {
+    position: fixed;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
